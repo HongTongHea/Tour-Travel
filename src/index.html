@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/Images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>TOUR & TRAVEl WEBSITE</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg p-2 fixed-top navbar-scroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">TOUR & TRAVEl</a>
+            <button class="navbar-toggler rounded-0 shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                <i class="bi bi-list fs-2 text-white"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-start bg-dark pointer-event" tabindex="-1" id="navbarOffcanvasLg"
+                aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">TOUR & TRAVEl</h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none rounded-2"
+                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <ul class="navbar-nav mb-2 ms-3 mb-lg-0 ms-lg-auto  ">
+
+                    <li class="nav-item m-2">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="#discover">Discover</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="#journals">Journals</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="home_page" id="home">
+        <div class="home-image">
+            <div class="home-title">
+                <h1 class="mb-4" data-aos="fade-up" data-aos-duration="1200">The new way to plan
+                    your next adventure
+                </h1>
+                <h6 data-aos="fade-up" data-aos-duration="2000">Explore the
+                    colorful world</h6>
+                <a href="#home" type="button" data-aos="fade-up" data-aos-duration="2000"
+                    class="btn btn-warning rounded-0">Explore More <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="About_page" id="about">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-6 col-lg-6 text-white">
+                    <div class="about-title">
+                        <h1 class="mb-4" data-aos="fade-up" data-aos-duration="1500">About Us</h1>
+                        <p class="mb-4" data-aos="fade-up" data-aos-duration="1600">Our mission is to
+                            ignite the spirit
+                            of discovery
+                            in
+                            every traveler's heart, offering meticulously
+                            crafted itineraries that blend
+                            adrenaline-pumping
+                            activities with awe-inspiring landscapes. With a
+                            team of seasoned globetrotters, we ensure that
+                            every
+                            expedition is infused with excitement, grace our
+                            planet. Embark on a voyage of a lifetime with
+                            us, as
+                            we redefine the art of exploration.</p>
+                    </div>
+                    <div class="card rounded-0 border-0 mb-4 h-25" data-aos="fade-up" data-aos-duration="1700">
+                        <div class="card-body bg-dark bg-dark text-center">
+                            <div class="row d-flex align-items-center justify-content-center">
+                                <div class="col-4">
+                                    <p class="m-0 paragrap">268</p>
+                                    <span>Complated Trips</span>
+                                </div>
+                                <div
+                                    class="col-4 border border-2 border-start-1 border-bottom-0 border-top-0 border-end-1">
+                                    <p class="m-0 paragrap">176</p>
+                                    <span>Tour Guides</span>
+                                </div>
+                                <div class="col-4">
+                                    <p class="m-0 paragrap">158</p>
+                                    <span>Destinations</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#home" type="button" data-aos="fade-up" data-aos-duration="1800"
+                        class="btn btn-warning rounded-0 mb-4">Read More
+                        <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="about-image m-0">
+                        <img src="assets/Images/about.jpg" alt>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="Discover_page" id="discover">
+        <div class="container mt-5">
+            <div class="discover-title text-white text-center">
+                <h1 class="mb-4">Discover the most engaging places</h1>
+                <p>Let's see the world with us with you and your family.</p>
+            </div>
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-12 col-md-4 col-lg-4 mt-4">
+                    <div class="discover-image" data-aos="fade-up" data-aos-duration="1800">
+                        <img src="assets/Images/discover-1.jpg" alt>
+                        <div class="overlay" data-aos="fade-up" data-aos-duration="2000">
+                            <h2>Norway</h2>
+                            <p>Discover the untamed beauty of Norway, a land
+                                where rugged mountains, and enchanting
+                                northern lights paint a surreal
+                                ease-in-outdrop.
+                            </p>
+                            <a href="#" class="btn btn-outline-light rounded-0">Discover
+                                More <i class="bi bi-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="discover-image mt-5 pt-5 " data-aos="fade-up" data-aos-duration="2200">
+                        <img src="assets/Images/discover-2.jpg" alt>
+                        <div class="overlay" data-aos="fade-up" data-aos-duration="2400">
+                            <h2>London</h2>
+                            <p>From urban rock climbing to twilight cycling
+                                through royal parks, London beckons
+                                adventure enthusiasts to embrace
+                                opportunities.</p>
+                            <a href="#" class="btn btn-outline-light rounded-0">Discover
+                                More <i class="bi bi-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="discover-image" data-aos="fade-up" data-aos-duration="2600">
+                        <img src="assets/Images/discover-3.jpg" alt>
+                        <div class="overlay" data-aos="fade-up" data-aos-duration="2800">
+                            <h2>Japan</h2>
+                            <p>From scaling the iconic peaks of Mount Fuji
+                                to
+                                immersing in the serenity, Japan offers
+                                adventurers a captivating cultural
+                                treasures.</p>
+                            <a href="#" class="btn btn-outline-light rounded-0">Discover
+                                More <i class="bi bi-arrow-right"></i> </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog_page" id="blog">
+        <div class="blog-title text-white text-center">
+            <h1 class="mb-2" data-aos="fade-up" data-aos-duration="1500">Latest on the blogs</h1>
+            <p class="mb-5" data-aos="fade-up" data-aos-duration="1600">We
+                want to help you travel better!</p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/Images/blog-6.jpg" alt>
+                    <div class="title-slide">
+                        <span>December 30, 2024</span>
+                        <p>Avinture Travel Tips: Packing Light for a LongTrip</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/Images/blog-3.jpg" alt>
+                    <div class="title-slide">
+                        <span>May 30, 2024</span>
+                        <p>Top destinations for adventure seekers in
+                            2023.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/Images/blog-2.jpg" alt>
+                    <div class="title-slide">
+                        <span>Feburary 30, 2024</span>
+                        <p>How to pack light for a long trip: Tips and
+                            tricks.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/Images/blog-5.jpg" alt>
+                    <div class="title-slide">
+                        <span>October 23, 2023</span>
+                        <p>Exploring hidden gems: Off-the-beaten-path travel
+                            destinations.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/Images/blog-8.jpg" alt>
+                    <div class="title-slide">
+                        <span>June 28, 2024</span>
+                        <p>The best places to visit in the world
+                            this year.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        </div>
+    </section>
+
+    <section class="Journals_page" id="journals">
+        <div class="container mt-5">
+            <div class="blog-title text-white text-center ">
+                <h1 class="mb-2" data-aos="fade-up" data-aos-duration="1500">The Travel Journals</h1>
+                <p class="mb-5" data-aos="fade-up" data-aos-duration="1600">
+                    A journals is a people record of the trips you have been
+                    on and the experiences you have had. <br> It records
+                    your experiences and your memories</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card rounded-0" data-aos="fade-up" data-aos-delay="1000">
+                        <img src="assets/Images/blog-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark p-4 pt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/Images/profile (3).jpg" alt="Profile Image" class="rounded-circle"
+                                    width="40" height="40">
+                                <h5 class="card-title m-2 fw-bold">Jane
+                                    Smith</h5>
+                            </div>
+                            <p>Jane is a passionate explorer and writer who
+                                enjoys documenting her journeys.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>11.25.2024</span>
+                                <i class="bi bi-share-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card rounded-0" data-aos="fade-up" data-aos-delay="1100">
+                        <img src="assets/Images/Journals (1).jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark p-4 pt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/Images/profile (1).jpg" alt="Profile Image"
+                                    class="rounded-circle object-fit-cover object-fit-contain" width="40" height="40">
+                                <h5 class="card-title m-2 fw-bold">Alice
+                                    Johnson</h5>
+                            </div>
+                            <p>Alice loves to travel
+                                and share her experiences with her
+                                readers and atventure.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>10.15.2024</span>
+                                <i class="bi bi-share-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card rounded-0" data-aos="fade-up" data-aos-delay="1200">
+                        <img src="assets/Images/Journals (2).jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark p-4 pt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/Images/profile (2).jpg" alt="Profile Image"
+                                    class="rounded-circle object-fit-cover object-fit-contain" width="40" height="40">
+                                <h5 class="card-title m-2 fw-bold">Michael
+                                    Brown</h5>
+                            </div>
+                            <p>Michael is an adventurer
+                                and storyteller who loves to explore new
+                                places.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>09.30.2024</span>
+                                <i class="bi bi-share-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card rounded-0" data-aos="fade-up" data-aos-delay="1300">
+                        <img src="assets/Images/Journals (3).jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark p-4 pt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/Images/profile (4).jpg" alt="Profile Image"
+                                    class="rounded-circle object-fit-cover object-fit-contain" width="40" height="40">
+                                <h5 class="card-title m-2 fw-bold">Emily
+                                    Davis</h5>
+                            </div>
+                            <p>Emily is a travel enthusiast
+                                and blogger who enjoys sharing her
+                                adventures.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>08.20.2023</span>
+                                <i class="bi bi-share-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card rounded-0" data-aos="fade-up" data-aos-delay="1400">
+                        <img src="assets/Images/Journals (4).jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark p-4 pt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/Images/profile (5).jpg" alt="Profile Image"
+                                    class="rounded-circle object-fit-cover object-fit-contain" width="40" height="40">
+                                <h5 class="card-title m-2 fw-bold">David
+                                    Wilson</h5>
+                            </div>
+                            <p>David is an avid traveler
+                                and writer who loves to share his
+                                stories.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>07.10.2023</span>
+                                <i class="bi bi-share-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card rounded-0" data-aos="fade-up" data-aos-delay="1500">
+                        <img src="assets/Images/Journals (5).jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark p-4 pt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/Images/profile (6).jpg" alt="Profile Image"
+                                    class="rounded-circle object-fit-cover object-fit-contain" width="40" height="40">
+                                <h5 class="card-title m-2 fw-bold">Sophia
+                                    Martinez</h5>
+                            </div>
+                            <p>Sophia is a travel blogger
+                                who loves to explore new local and
+                                destinations.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>06.05.2025</span>
+                                <i class="bi bi-share-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card rounded-0" data-aos="fade-up" data-aos-delay="1600">
+                        <img src="assets/Images/Journals (7).jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark p-4 pt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/Images/profile (8).jpg" alt="Profile Image"
+                                    class="rounded-circle object-fit-cover object-fit-contain" width="40" height="40">
+                                <h5 class="card-title m-2 fw-bold">James
+                                    Anderson</h5>
+                            </div>
+                            <p>James is an explorer
+                                and travel writer who loves to share his
+                                experiences.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>05.25.2025</span>
+                                <i class="bi bi-share-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card rounded-0" data-aos="fade-up" data-aos-delay="1700">
+                        <img src="assets/Images/Journals (6).jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark p-4 pt-3">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/Images/profile (7).jpg" alt="Profile Image"
+                                    class="rounded-circle object-fit-cover object-fit-contain" width="40" height="40">
+                                <h5 class="card-title m-2 fw-bold">Olivia
+                                    Taylor</h5>
+                            </div>
+                            <p>Olivia is a travel enthusiast
+                                and blogger who loves to share her
+                                adventures.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>04.15.2025</span>
+                                <i class="bi bi-share-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery_page" id="gallery">
+        <div class="gallery-title text-white text-center">
+            <h1 class="mb-2" data-aos="fade-up" data-aos-duration="1500">The Gallery</h1>
+            <p class="mb-5" data-aos="fade-up" data-aos-duration="1600">A
+                picture is worth a thousand words. <br> Let's see the
+                world with us with you and your family.</p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="assets/Images/Journals (1).jpg" width="351px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="assets/Images/gallery (1).jpg" width="351px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="1200">
+                    <img src="assets/Images/gallery (2).jpg" width="351px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="1300">
+                    <img src="assets/Images/gallery (3).jpg" width="351px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="1400">
+                    <img src="assets/Images/gallery (4).jpg" width="351px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="assets/Images/gallery (5).jpg" width="351px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/Images/gallery (6).jpg" width="351px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="1700">
+                    <img src="assets/Images/gallery (7).jpg" width="351px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="1800">
+                    <img src="assets/Images/gallery (8).jpg" width="351px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="1900">
+                    <img src="assets/Images/gallery (9).jpg" width="351px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="assets/Images/Journals (4).jpg" width="351px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="gallery-image" data-aos="fade-up" data-aos-duration="2100">
+                    <img src="assets/Images/Journals (6).jpg" width="351px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact_page" id="contact">
+        <div class="container">
+            <div class="contact-title text-white text-center">
+                <h1 class="mb-2" data-aos="fade-up" data-aos-duration="1500">Contact Us</h1>
+                <p class="mb-5" data-aos="fade-up" data-aos-duration="1600">We
+                    are here to help you with any questions you may have.
+                    <br> Feel free to contact us.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="contact-image" data-aos="fade-right" data-aos-duration="1800">
+                        <div class="contact-info text-white">
+                            <h2 class="mb-4">Contact Information</h2>
+                            <p>
+                                <i class="bi bi-exclamation-circle-fill"></i>
+                                Contact us for any questions or inquiries. <br>
+                                We are here to help you with any questions you may have.
+                            </p>
+                            <p>
+                                <i class="bi bi-geo-alt-fill"></i> 1234 Street Name, City Name, United States
+                            </p>
+                            <p>
+                                <i class="bi bi-telephone-fill"></i> +(123) 456-7890
+                            </p>
+                            <p>
+                                <i class="bi bi-telephone-fill"></i> +(234) 456-7890
+                            </p>
+                            <p>
+                                <i class="bi bi-envelope"></i> example@example.com
+                            </p>
+                            <p>
+                                <i class="bi bi-globe"></i> www.example.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <form class="contact-form" data-aos="fade-left" data-aos-duration="1900">
+                        <div class="mb-2">
+                            <label for="name" class="form-label">Name</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                            </div>
+                        </div>
+                        <div class="mb-2">
+                            <label for="email" class="form-label">Email address</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="mb-2">
+                            <label for="message" class="form-label">Message</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-chat-text"></i></span>
+                                <textarea class="form-control" id="message" rows="3"
+                                    placeholder="Enter your message"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100 fw-bold">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer text-white text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-7">
+                    <a class="navbar-brand" href="#">TOUR & TRAVEl</a>
+                    <p>© 2024 Tour & Travel. All Rights Reserved.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                    <div class="footer-links mt-2 mb-3">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                    </div>
+
+                    <p>Cheap and Easy Travel Planner Romantic Destinations for Couples and Families. Book Your Next Trip
+                        with
+                        <span class="text-warning">Tour & Travel</span> Today!
+                    </p>
+                    <div class="social-icons">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#discover">Discover</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#journals">Journals</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
