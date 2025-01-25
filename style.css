@@ -469,7 +469,9 @@ footer p{
 }
 
 @media (max-width: 768px) {
-
+body{
+      overflow-x: hidden;
+}
     .home-image .home-title {
         width: 100%;
         left: 0;
