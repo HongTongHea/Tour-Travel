@@ -385,17 +385,19 @@ body {
     height: 30vh;
 }
 
-.contact i {
-    font-size: 2rem;
-    color: white;
+.contact-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-
-.contact-info p {
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
+.contact-list li{
+    margin-bottom: 10px;
 }
-
+.contact-list a{
+    text-decoration: none;
+    color: white;
+  
+}
 form {
     border: 2px solid white;
     padding: 20px;
