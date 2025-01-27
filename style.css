@@ -472,10 +472,47 @@ footer p {
     background-color: white !important;
 }
 
+.offcanvas-backdrop {
+    background: none !important;
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .home-title h1 {
+        font-size: 2.50rem !important;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .home-title h1 {
+        font-size: 2.50rem !important;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navbar-toggler {
+        font-size: 1rem;
+    }
+
+
+    .offcanvas .offcanvas-body {
+        padding: 1rem;
     }
 
     .home-image .home-title {
@@ -485,11 +522,7 @@ footer p {
     }
 
     .home-image .home-title h6 {
-        left: 4%;
-    }
-
-    .home-image .home-title h6::before {
-        left: 15%;
+        left: 0;
     }
 
     .home-title h1 {
@@ -542,11 +575,10 @@ footer p {
     }
 
     span {
-        font-size: 11px !important;
+        font-size: 10px !important;
     }
 
     .gallery-image img {
-        padding: 0px 14px;
         width: 100% !important;
     }
 
@@ -555,11 +587,14 @@ footer p {
     }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+
     form {
         width: 100%;
     }
 }
-
-
-@media (max-width: 768px) {}
